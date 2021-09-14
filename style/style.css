@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;  
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(149, 225, 211);
+    position: fixed;
+                top: 0px;
+}
+.logo-wrapper{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;  
+    margin-left: 20px;
+    text-decoration: none;
+}
+.logo-wrapper img{
+    height: 70%;
+}
+.logo-wrapper h1{
+   color:rgb(252, 71, 128); 
+   font-size: 24px;
+   text-transform: uppercase;
+ 
+}
+nav{
+    
+    margin: 5px;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;  
+}
+nav li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+nav a{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color:rgb(255, 117, 160);
+}
+main{
+    display: flex;
+    margin-top: 13vh;
+    padding: 10px;
+}
+.left-side{
+    width: 60%;
+    margin: 10px;
+}
+.big-pic{
+    width: 100%; 
+    border-radius: 5px;  
+    padding: 30px;
+    background-color: rgb(252, 227, 138);
+}
+.right-side{
+    width: 40%;
+    
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(234, 255, 208);
+    border-radius: 5px;
+}
+.right-side h2{
+    padding: 15px;
+    background-color:rgb(255, 117, 160);
+    box-shadow: 5px 5px rgb(252, 71, 128);
+    color: white;
+}
+
+.first-p{
+    margin-top: 30px;
+}
+.right-side p{
+    
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+button{
+    min-width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 10px;
+    background-color: rgb(149, 225, 211);
+    border-radius: 10px; 
+    font-size: 1.3em;
+    letter-spacing: 0.8em;
+    text-transform: uppercase; 
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(149, 225, 211);
+}
+.copyright{
+    padding: 10px;
+    padding-right: 20px;
+}
